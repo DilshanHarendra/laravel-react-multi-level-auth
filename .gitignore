@@ -1,0 +1,17 @@
+/multi_auth/node_modules
+/multi_auth/public/hot
+/multi_auth/public/storage
+/multi_auth/storage/*.key
+/multi_auth/vendor
+/multi_auth.env
+/multi_auth.env.backup
+/multi_auth.phpunit.result.cache
+/multi_authdocker-compose.override.yml
+/multi_authHomestead.json
+/multi_authHomestead.yaml
+/multi_authnpm-debug.log
+/multi_authyarn-error.log
+/multi_auth/.idea
+/multi_auth/.vscode
+
+.idea
