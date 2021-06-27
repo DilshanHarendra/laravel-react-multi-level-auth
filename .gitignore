@@ -15,3 +15,24 @@
 /multi_auth/.vscode
 
 .idea
+
+/multi_auth_client//node_modules
+/multi_auth_client/.pnp
+/multi_auth_client/.pnp.js
+
+# testing
+/multi_auth_client//coverage
+
+# production
+/multi_auth_client//build
+
+# misc
+/multi_auth_client/.DS_Store
+/multi_auth_client/.env.local
+/multi_auth_client/.env.development.local
+/multi_auth_client/.env.test.local
+/multi_auth_client/.env.production.local
+
+/multi_auth_client/npm-debug.log*
+/multi_auth_client/yarn-debug.log*
+/multi_auth_client/yarn-error.log*
