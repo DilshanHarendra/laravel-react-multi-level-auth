@@ -14,6 +14,6 @@ class TeacherController extends Controller
 
     public function index()
     {
-        return view('teacher.home');
+        return view('client');
     }
 }

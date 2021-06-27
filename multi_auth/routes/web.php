@@ -23,4 +23,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
 Route::get('/super-admin',[App\Http\Controllers\SuperAdminController::class, 'index'])->name('superAdmin');
 Route::get('/teacher',[App\Http\Controllers\TeacherController::class, 'index'])->name('teacher');
-
+Route::fallback(function (){
+    return view('client');
+});
